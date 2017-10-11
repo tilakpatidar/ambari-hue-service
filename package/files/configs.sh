@@ -37,8 +37,9 @@ usage () {
 
 USERID="admin"
 PASSWD="admin"
-PORT=":8080"
-SSL_URL_PREFIX=""
+#we are using HTTPS
+PORT=":8442"
+SSL_URL_PREFIX="s"
 
 if [ "$1" == "-u" ] ; then
   USERID=$2;
